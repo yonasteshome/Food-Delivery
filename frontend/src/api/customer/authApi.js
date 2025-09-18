@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://real-time-food-delivery.onrender.com/api/delivery",
+  baseURL: "hhttp://localhost:5000/api/delivery",
   withCredentials: true, // for HttpOnly cookies
 });
 
